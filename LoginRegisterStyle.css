@@ -10,6 +10,17 @@ body {
 
 }
 
+.BodyRegister {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background-image: url('Img/Hill.png');
+    background-size: cover;
+    background-position: center;
+
+}
+
 .HrefColor {
     color: rgb(229, 194, 245);
     text-decoration: none;
