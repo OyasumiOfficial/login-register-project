@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Let put special characters and accentuation without shuffle the site -->
+    <meta charset="UTF-8">
+
+    <!-- Ajusta automaticamente a escala do site dependendo do tamanho do dispositivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Adiciona uma descrição para o site quando o link for compartilhado-->
+    <meta name="description" content="Oyasumi's First Portfolio Website">
+
+    <!-- Não é tão utilizando mais, porém ajuda a deixar o site em ranks mais altos do google para ser encontrado antigamente-->
+    <meta name="keywords" content="portfolio, web development, FrontEnd, Front-End, CSS, Oyasumi">
+
+    <!-- Adiciona Nome do autor do site, assim as search engines pode ter preferencia em seus sites conforme for criando mais-->
+    <meta name="author" content="Oyasumi">
+
+    <!-- linka o arquivos de estilos css para o html, o href é o caminho do arquivo css, sendo um caminho externo ou local, neste caso local-->
+    <link rel="stylesheet" href="Styles.css">
+    <title>Oyasumi's</title>
+</head>
+
+<body>
+    <main class="container">
+        <form>
+            <!-- h1 é tag de titulo, conforme importancia coloca numero maiores ou menores,
+ h1 é o mais importante e h6 o menos importante, pode ajudar search engines a recomendar o site-->
+            <h1>Log-In test</h1>
+
+            <!-- caixa para o usuario digitar o email, o placeholder é o texto que aparece dentro da caixa pra
+              mostrar o que deve ser digitado e o required é para obrigar o usuario a preencher o campo,
+              name é para definir o nome do campo no formulário/banco de dados-->
+            <div class="InputBox">
+                <input name="user" placeholder="User" type="email" required class="InputPadding">
+            </div>
+
+
+            <div class="InputBox">
+                <input name="password" placeholder="Password" type="password" required class="InputPadding">
+            </div>
+
+
+
+            <!-- Checkbox cria uma caixa de seleção. O id identifica o input e o for do label
+     o associa ao checkbox, permitindo clicar também no texto. Cada id deve ser único. -->
+            <div class="options">
+                <div>
+                    <!-- Foi agrupado a checkbox junto do texto clicavel a partir do id da checkbox para o css funcione -->
+                    <input type="checkbox" id="remember">
+                    <label for="remember">Remember my password</label>
+                </div>
+
+                <a href="PasswordReset" class="HrefColor">Forgot password?</a>
+            </div>
+
+            <!-- Botão de login -->
+            <button class="LoginButton" type="submit">Log-In</button>
+
+
+            <div class="Register">
+                <div><a href="Register" class="HrefColor">Don`t have an account?</a></div>
+                <a href="Register" class="RegisterButton">Register</a>
+            </div>
+
+
+        </form>
+
+    </main>
+</body>
+
+</html>
