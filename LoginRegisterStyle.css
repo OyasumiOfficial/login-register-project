@@ -20,7 +20,7 @@ body {
 
 /* Container for login form */
 .Container {
-    width: 450px;
+    width: 350px;
     background-color: transparent;
     border: 2px solid rgba(153, 146, 186, 0.893);
     border-radius: 10px;
@@ -28,6 +28,17 @@ body {
     padding: 30px 40px;
     box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
     backdrop-filter: blur(3px);
+}
+
+.RegisterContainer {
+    width: 300px;
+    background-color: transparent;
+    border: 3px solid rgba(153, 146, 186, 0.893);
+    border-radius: 10px;
+    color: rgb(236, 236, 236);
+    padding: 30px 40px;
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+    backdrop-filter: blur(4px);
 }
 
 /* Centralize tittle of the login form */
@@ -59,7 +70,7 @@ h1 {
 
 /* Change placeholder color */
 .InputBox Input::placeholder {
-    color: rgba(138, 138, 138, 0.897);
+    color: rgba(203, 201, 201, 0.897);
 }
 
 .InputPadding {
@@ -73,7 +84,7 @@ h1 {
 
 }
 
-.LoginButton {
+.LoginRegisterButton {
     width: 100%;
     height: 40px;
     margin: 10px 0;

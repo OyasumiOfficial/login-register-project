@@ -7,11 +7,40 @@
     <meta name="description" content="Oyasumi's First Portfolio Website">
     <meta name="keywords" content="portfolio, web development, FrontEnd, Front-End, CSS, Oyasumi">
     <meta name="author" content="Oyasumi">
-    <link rel="stylesheet" href="RegisterStyle.css">
+    <link rel="stylesheet" href="LoginRegisterStyle.css">
     <title>Oyasumi's Register Page</title>
 </head>
 <body>
-    
+    <main Class="RegisterContainer">
+        <form>
+            <h1>Register Test</h1>
+
+            <div class="InputBox">
+                <input name="email" placeholder="Email" type="email" required class="InputPadding">
+            </div>
+
+            <div class="InputBox">
+                <input name="password" placeholder="Password" type="password" required class="InputPadding">
+            </div>
+
+            <div class="InputBox">
+                <input name="confirm_password" placeholder="Confirm Password" type="password" required class="InputPadding">
+
+            </div>
+
+
+            <button class="LoginRegisterButton" type="submit">Register</button>
+
+            
+            <div class="Register">
+                <div><a href="Login.html" class="HrefColor">Already have an account?</a></div>
+                <a href="Login.html" class="RegisterButton">Log-In
+                </a>
+            </div>
+            
+        </form>
+    </main>
+
     
 </body>
 </html>
