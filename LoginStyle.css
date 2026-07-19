@@ -19,7 +19,7 @@ body {
 
 
 /* Container for login form */
-.container {
+.Container {
     width: 450px;
     background-color: transparent;
     border: 2px solid rgba(153, 146, 186, 0.893);
@@ -45,7 +45,7 @@ h1 {
 
 
 /*Adjust border of inputbox, text size and color*/
-.InputBox input {
+.InputBox Input {
     width: 100%;
     height: 100%;
     background-color: transparent;
@@ -58,7 +58,7 @@ h1 {
 
 
 /* Change placeholder color */
-.InputBox input::placeholder {
+.InputBox Input::placeholder {
     color: rgba(138, 138, 138, 0.897);
 }
 
@@ -85,7 +85,7 @@ h1 {
     cursor: pointer;
 }
 
-.options {
+.Options {
     display: flex;
     justify-content: space-between;
     align-items: center;

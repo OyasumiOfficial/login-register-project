@@ -5,33 +5,33 @@
     <!-- Let put special characters and accentuation without shuffle the site -->
     <meta charset="UTF-8">
 
-    <!-- Ajusta automaticamente a escala do site dependendo do tamanho do dispositivo -->
+    <!-- Automatically adjusts the website scale based on the device size. -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--Adiciona uma descrição para o site quando o link for compartilhado-->
+    <!--Adds a description for the site when the link is shared.-->
     <meta name="description" content="Oyasumi's First Portfolio Website">
 
-    <!-- Não é tão utilizando mais, porém ajuda a deixar o site em ranks mais altos do google para ser encontrado antigamente-->
+    <!-- Was used before to improve page ranking -->
     <meta name="keywords" content="portfolio, web development, FrontEnd, Front-End, CSS, Oyasumi">
 
-    <!-- Adiciona Nome do autor do site, assim as search engines pode ter preferencia em seus sites conforme for criando mais-->
+    <!-- Adds the author's name to the site, allowing search engines to give preference to their sites as they create more content -->
     <meta name="author" content="Oyasumi">
 
-    <!-- linka o arquivos de estilos css para o html, o href é o caminho do arquivo css, sendo um caminho externo ou local, neste caso local-->
-    <link rel="stylesheet" href="Styles.css">
-    <title>Oyasumi's</title>
+    <!-- Links the CSS style files to the HTML, where href is the path to the CSS file, which can be an external or local path, in this case local -->
+    <link rel="stylesheet" href="LoginStyle.css">
+    <title>Oyasumi's Login Page</title>
 </head>
 
 <body>
-    <main class="container">
+    <main class="Container">
         <form>
-            <!-- h1 é tag de titulo, conforme importancia coloca numero maiores ou menores,
- h1 é o mais importante e h6 o menos importante, pode ajudar search engines a recomendar o site-->
+            <!-- Heading tags define the hierarchy of titles on the page.
+            h1 is the most important heading and h6 the least important.
+            They help search engines understand the structure and content of the page. -->
             <h1>Log-In test</h1>
 
-            <!-- caixa para o usuario digitar o email, o placeholder é o texto que aparece dentro da caixa pra
-              mostrar o que deve ser digitado e o required é para obrigar o usuario a preencher o campo,
-              name é para definir o nome do campo no formulário/banco de dados-->
+            <!-- Email input. placeholder shows a hint to the user. required makes the field mandatory.
+            Name defines the field identifier sent to the backend data. -->
             <div class="InputBox">
                 <input name="user" placeholder="User" type="email" required class="InputPadding">
             </div>
@@ -43,11 +43,11 @@
 
 
 
-            <!-- Checkbox cria uma caixa de seleção. O id identifica o input e o for do label
-     o associa ao checkbox, permitindo clicar também no texto. Cada id deve ser único. -->
-            <div class="options">
+            <!-- checkbox create a selection box. "Id" identifies the input. the "for" of the label
+     associates it with the checkbox, allowing clicking the text. Each id must be unique in page. -->
+            <div class="Options">
                 <div>
-                    <!-- Foi agrupado a checkbox junto do texto clicavel a partir do id da checkbox para o css funcione -->
+                    <!-- Groups the checkbox with the clickable text using the checkbox id, allowing CSS styling to be applied. -->
                     <input type="checkbox" id="remember">
                     <label for="remember">Remember my password</label>
                 </div>
@@ -55,13 +55,13 @@
                 <a href="PasswordReset" class="HrefColor">Forgot password?</a>
             </div>
 
-            <!-- Botão de login -->
+            <!-- Login Button, class define the styling for the button in css, type defines as a button -->
             <button class="LoginButton" type="submit">Log-In</button>
 
-
+            <!-- Register Button, class define the styling for the button in css, type defines as a button -->
             <div class="Register">
-                <div><a href="Register" class="HrefColor">Don`t have an account?</a></div>
-                <a href="Register" class="RegisterButton">Register</a>
+                <div><a href="Register.html" class="HrefColor">Don`t have an account?</a></div>
+                <a href="Register.html" class="RegisterButton">Register</a>
             </div>
 
 
