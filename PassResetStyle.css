@@ -1,3 +1,7 @@
+h1,h2, p {
+    text-align: center;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -20,26 +24,32 @@ body {
     backdrop-filter: blur(3px);
 }
 
-
-.CodeInput {
-    display: flex;
-    justify-content: center;
-    gap: 12px;
-    margin-top: 25px;
+.InputBox Input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    outline: none;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
 }
+
+.InputBox {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+}
+
 
 .CodeInput input {
     width: 30px;
     height: 30px;
     border: 2px solid #d9d9d9;
     border-radius: 8px;
-    font-size: 28px;
+    font-size: 25px;
     text-align: center;
     outline: none;
     transition: .2s;
-}
-
-.CodeInput input:focus {
-    border-color: #4b5cff;
-    box-shadow: 0 0 8px rgba(75,92,255,.25);
 }
