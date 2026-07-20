@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+
+}
+
+.Container {
+    width: 350px;
+    background-color: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.893);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    padding: 30px 40px;
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+    backdrop-filter: blur(3px);
+}
+
+
+.CodeInput {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.CodeInput input {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #d9d9d9;
+    border-radius: 8px;
+    font-size: 28px;
+    text-align: center;
+    outline: none;
+    transition: .2s;
+}
+
+.CodeInput input:focus {
+    border-color: #4b5cff;
+    box-shadow: 0 0 8px rgba(75,92,255,.25);
+}
