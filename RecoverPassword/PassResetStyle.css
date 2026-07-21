@@ -55,7 +55,7 @@ body {
 
 
 .CodeInput input {
-    width: 30px;
+    width: 150px;
     height: 30px;
     border: 2px solid #d9d9d9;
     border-radius: 8px;
@@ -63,6 +63,8 @@ body {
     text-align: center;
     outline: none;
     transition: .2s;
+    letter-spacing: 10px;
+    padding-left: 15px;
 }
 
 .CodeInput input:focus {
