@@ -1,15 +1,13 @@
-h1 {
-    font-size: 40px;
-    text-align: center;
-}
+h1 {font-size: 40px;
+    text-align: center;}
 
-h2 {
-    font-size: 30px;
-    text-align: center;
-}
-p {
-    font-size: 20px;
-    text-align: center;
+p {font-size: 20px;
+    text-align: center;}
+
+.HrefColor {
+    color: rgb(250, 250, 250);
+    text-decoration: none;
+    font-size: 18px;
 }
 
 body {
@@ -20,7 +18,6 @@ body {
     background-image: url(Img/Hill.png);
     background-size: cover;
     background-position: center;
-
 }
 
 .Container {
@@ -84,10 +81,14 @@ body {
     cursor: pointer;
 }
 
+.Cancel {
+    text-align: center;
+    margin: 10px 0;
+}
+
 .CancelButton {
     display: inline-block;
     padding: 10px 20px;
-    margin: 10px;
     background-color: rgb(194, 141, 248);
     color: white;
     text-decoration: none;
