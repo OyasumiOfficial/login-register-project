@@ -4,7 +4,7 @@
 - Caso de erros:
     - Formato de E-mail errado: enviar aviso
     - Caso senhas não sejam iguais: enviar aviso
-- Caso os dados informados sejam válidos::
+- Caso os dados informados sejam válidos:
     - Sistema envia código de verificação de 6 digitos pelo E-mail
         - Interface avisa tempo limite de inserção de código e o tempo para pedir outro
 
@@ -13,8 +13,10 @@
        - Caso válido:
          - Usuário é autenticado.
          - Redirecionar para Home.
-      - Caso inválido:
+       - Caso Inválido
          - Solicitar nova tentativa.
+            - Aviso de quantas vezes pode pedir o código e aviso de bloqueio de tentativa
+            - Caso usuario erre 5 vezes o código o sistema bloqueia tentativas por 30 min
       - Caso o código expire:
         - Permitir solicitar um novo código.
         - Pedir ao usuário requisitar outro código
@@ -50,7 +52,7 @@
 
 ### Formato de Email invalido
 
-"NNão foi possível identificar o E-mail. Por favor, verifique o formato informado"
+"Não foi possível identificar o E-mail. Por favor, verifique o formato informado"
 
 ### Erro confirmação de senha
 
