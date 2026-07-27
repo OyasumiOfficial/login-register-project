@@ -7,8 +7,8 @@
     <meta name="description" content="Oyasumi's First Portfolio Website">
     <meta name="keywords" content="portfolio, web development, FrontEnd, Front-End, CSS, Oyasumi">
     <meta name="author" content="Oyasumi">
-    <link rel="stylesheet" href="PassResetStyle.css">
-    <title>New Password</title>
+    <link rel="stylesheet" href="/Styles/PassResetStyle.css">
+    <title>Reset Password Code</title>
 </head>
 
 <body class="BodyReset">
@@ -17,20 +17,18 @@
         <form>
             <div class="CodeSection">
 
-                <h1>New Password</h1>
-                <p>Enter your new password below.</p>
+                <h1>Verification Code</h1>
+                <p>Enter the 6 digit code sent to your email.</p>
 
-                <div class="InputBox">
-                    <input name="password" placeholder="Password" type="password" required maxlength="36" class="InputPadding">
+                <div class="Cancel">
+                    <div class="CodeInput">
+                        <input type="text" placeholder="CODE" maxlength="6" inputmode="numeric">
+                    </div>
                 </div>
-                <div class="InputBox">
-                    <input name="confirm_password" placeholder="Confirm Password" type="password" required maxlength="36" class="InputPadding">
-                </div>
+
             </div>
 
-            </div>
-
-            <button class="VerifyButton" type="submit">Update Password</button>
+            <button class="VerifyButton" type="submit">Verify Code</button>
 
             <div class="Cancel">
                 <div><a href="/LoginRegister/Login.html" class="CancelButton">Cancel</a></div>

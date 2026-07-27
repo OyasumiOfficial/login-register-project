@@ -7,23 +7,31 @@
     <meta name="description" content="Oyasumi's First Portfolio Website">
     <meta name="keywords" content="portfolio, web development, FrontEnd, Front-End, CSS, Oyasumi">
     <meta name="author" content="Oyasumi">
-    <link rel="stylesheet" href="PassResetStyle.css">
-    <title>Reset Password</title>
+    <link rel="stylesheet" href="/Styles/PassResetStyle.css">
+    <title>Email Validation</title>
 </head>
 
 <body class="BodyReset">
-
     <main class="Container">
 
         <form>
-            <h1>Reset Password</h1>
-            <p>Enter your email address to receive a verification code.</p>
+            <div class="CodeSection">
 
-            <div class="InputBox">
-                <input type="email" name="email" class="InputPadding" placeholder="Email" maxlength="60"required>
+                <h1>Verify Email</h1>
+                <p>Enter the 6 digit code sent to your email.</p>
+
+                <div class="Cancel">
+                    <div class="CodeInput">
+                        <input type="text" placeholder="CODE" maxlength="6" inputmode="numeric">
+                    </div>
+                </div>
+
+                    </div>
+                </div>
+
             </div>
 
-            <button class="VerifyButton" type="submit">Request Reset Code</button>
+            <button class="VerifyButton" type="submit">Verify Code</button>
 
             <div class="Cancel">
                 <div><a href="/LoginRegister/Login.html" class="CancelButton">Cancel</a></div>
