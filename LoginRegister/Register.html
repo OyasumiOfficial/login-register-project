@@ -10,41 +10,41 @@
     <link rel="stylesheet" href="LoginRegisterStyle.css">
     <title>Oyasumi's Register Page</title>
 </head>
+
 <body class="BodyRegister">
     <main Class="RegisterContainer">
         <form>
             <h1>Register Test</h1>
 
             <div class="InputBox">
-                <input name="email" placeholder="Email" type="email" required maxlength="60" class="InputPadding">
+                <input id="Email" name="email" placeholder="Email" type="email"  maxlength="60" autocomplete="email" required class="InputPadding">
             </div>
 
             <div class="InputBox">
-                <input name="name" placeholder="User name" type="text" required maxlength="15" class="InputPadding">
+                <input id="Username" name="username" placeholder="User name" type="text"  maxlength="15" autocomplete="username" required class="InputPadding">
             </div>
 
             <div class="InputBox">
-                <input name="password" placeholder="Password" type="password" required maxlength="36" class="InputPadding">
+                <input id="Password" name="password" placeholder="Password" type="password"  maxlength="37" autocomplete="new-password" required class="InputPadding">
             </div>
 
             <div class="InputBox">
-                <input name="confirm_password" placeholder="Confirm Password" type="password" required maxlength="36" class="InputPadding">
-
+                <input id="ConfirmPassword" name="ConfirmPassword" placeholder="Confirm Password" type="password"  maxlength="37" autocomplete="new-password" required class="InputPadding">
             </div>
 
 
             <button class="LoginRegisterButton" type="submit">Register</button>
 
-            
+
             <div class="Register">
                 <div><a href="Login.html" class="HrefColor">Already have an account?</a></div>
                 <a href="Login.html" class="RegisterButton">Log-In
                 </a>
             </div>
-            
         </form>
     </main>
 
-    
+  <script src="/Scripts/Register.js"></script>
 </body>
+
 </html>

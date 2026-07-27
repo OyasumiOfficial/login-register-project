@@ -4,6 +4,7 @@
 - Caso de erros:
     - Formato de E-mail errado: enviar aviso
     - Caso senhas não sejam iguais: enviar aviso
+    - Caso senhas não atinjam os requisitos minimos: enviar aviso
 - Caso os dados informados sejam válidos:
     - Sistema envia código de verificação de 6 digitos pelo E-mail
         - Interface avisa tempo limite de inserção de código e o tempo para pedir outro
