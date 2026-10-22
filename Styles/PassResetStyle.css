@@ -24,7 +24,7 @@ body {
     width: 350px;
     background-color: transparent;
     border: 2px solid rgba(137, 85, 170, 0.893);
-    border-radius: 10px;
+    border-radius: 5px;
     color: rgb(250, 250, 250);
     padding: 30px 40px;
     box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
@@ -43,7 +43,7 @@ body {
     height: 100%;
     background-color: transparent;
     border: 2px solid rgb(194, 141, 248);
-    border-radius: 15px;
+    border-radius: 10px;
     outline: none;
     font-size: 20px;
     color: rgb(250, 250, 250);
@@ -74,10 +74,10 @@ body {
 .VerifyButton {
     width: 100%;
     height: 40px;
-    margin: 10px 0;
+    margin: 15px 0;
     background-color: rgb(194, 141, 248);
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
     color: rgb(255, 255, 255);
     font-size: 16px;
     cursor: pointer;

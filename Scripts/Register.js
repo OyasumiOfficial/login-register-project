@@ -1,5 +1,3 @@
-import express from `express`
-
 const Email = document.querySelector('#Email');
 const Username = document.querySelector('#Username');
 const Password = document.querySelector('#Password');
