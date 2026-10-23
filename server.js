@@ -1,22 +1,10 @@
 import express from 'express'
+import publicRoutes from './routes/public.js'
 
 const app = express()
 app.use(express.json())
 
-const port = 3000;
-const users = []
-
-
-app.post("/Register", (req, res) => {
-    console.log(req.body) 
-
-    res.send(`Ok post`)
-})
-
-
-app.get("/Register", (req, res) => {
-res.json(users)
-})
+app.use(`/`, publicRoutes)
 
 
 app.listen(3000, () => console.log('Servidor Rodando'))
