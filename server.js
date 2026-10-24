@@ -1,5 +1,5 @@
 import express from 'express'
-import publicRoutes from './routes/public.js'
+import publicRoutes from './routes/public/registerRoute.js'
 
 const app = express()
 app.use(express.json())
