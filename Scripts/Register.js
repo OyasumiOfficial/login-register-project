@@ -57,7 +57,16 @@ form.addEventListener('submit', (event) => {
 
     if (!SendForm) {
         event.preventDefault();
-
+    }
+    // Se os requisitos forem atendidos cria o objeto UserData pra conversão
+     else {
+        const userData = {
+            email: Email.value,
+            username: Username.value,
+            password: Password.value
+        };
+        // faz a conversão do objeto userData para Json
+        const userJSONdata = JSON.stringify(userData);
     }
 });
 
