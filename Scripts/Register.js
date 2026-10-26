@@ -58,9 +58,21 @@ form.addEventListener('submit', (event) => {
 
     if (!SendForm) {
         event.preventDefault();
-
     }
-    
+
+    const userData = {
+    email: Email.value,
+    username: Username.value,
+    password: Password.value,
+    }
+
+    if (SendForm) {
+    const userJSON = JSON.stringify(userData);
+}
+
 });
+
+
+
 
 console.log("JavaScript carregado!");
