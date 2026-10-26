@@ -2,6 +2,7 @@ const Email = document.querySelector('#Email');
 const Username = document.querySelector('#Username');
 const Password = document.querySelector('#Password');
 const ConfirmPassword = document.querySelector('#ConfirmPassword');
+const EmailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 const form = document.querySelector('form');
 
@@ -9,6 +10,12 @@ form.addEventListener('submit', (event) => {
     // Obriga preencher o campo
     if (!Email.value || !Username.value || !Password.value || !ConfirmPassword.value) {
         console.log("Porfavor, preencha todos os campos.");
+        SendForm = false;
+    }
+
+    // Verifica se o email é válido
+    if (Email.value.length < 16 || !EmailRegex.test(Email.value)) {
+        console.log("Por favor, insira um e-mail válido.");
         SendForm = false;
     }
 
@@ -53,6 +60,7 @@ form.addEventListener('submit', (event) => {
         event.preventDefault();
 
     }
+    
 });
 
 console.log("JavaScript carregado!");
