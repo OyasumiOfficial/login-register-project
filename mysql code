@@ -1,0 +1,9 @@
+create database ProjectDB;
+
+create table Users (
+// ID rule 3 alpabetic characters that cannot be repeated and 5 numeric characters
+userID int char(8) primary key not null,
+email varchar(255),
+user varchar(255),
+password varchar(255)
+);

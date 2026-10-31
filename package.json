@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/OyasumiOfficial/login-register-project#readme",
   "dependencies": {
-    "express": "^5.2.1"
-  },
-  "devDependencies": {}
+    "express": "^5.2.1",
+    "mysql2": "^3.24.6"
+  }
 }
